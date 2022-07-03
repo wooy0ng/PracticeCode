@@ -16,7 +16,6 @@ def solution(answers):
         if answers[idx] == m: cnt[2] += 1
     
     answer = list(filter(lambda idx: cnt[idx] == max(cnt), range(len(cnt))))
-
     return [n+1 for n in answer]
 
 answers = [1,3,2,4,2]	
