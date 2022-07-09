@@ -8,8 +8,7 @@ def solution(left, right):
             answer -= n
         else:
             answer += n
-    
-    return 
+    return answer
 
 
 left = 13
