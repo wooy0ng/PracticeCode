@@ -22,7 +22,6 @@ def solution(scoville, K):
         heapq.heappush(heap, scoville_rate)
     return cnt
 
-
 scoville = [1, 2, 3, 4, 5]	
 k = 50
 print(solution(scoville, k))
