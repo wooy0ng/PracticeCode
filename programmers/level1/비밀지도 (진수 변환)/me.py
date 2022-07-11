@@ -1,7 +1,3 @@
-from audioop import reverse
-import enum
-
-
 def solution(n, arr1, arr2):
     def int_to_bit(arr):
         result = []
