@@ -1,6 +1,5 @@
 from collections import deque
 
-
 '''
 내 코드는 복잡도가 O(n^2)임.
 '''
