@@ -7,7 +7,6 @@ def solution1(numbers, target):
     else:
         return solution1(numbers[1:], target-numbers[0]) + solution1(numbers[1:], target+numbers[0])
 
-
 # 2)
 from itertools import product
 def solution2(numbers, target):
@@ -17,5 +16,4 @@ def solution2(numbers, target):
 
 numbers = [4, 1, 2, 1]
 target = 4
-
 print(solution1(numbers, target))
